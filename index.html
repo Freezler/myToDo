@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="//fonts.googleapis.com/css?family=Bangers&subset=latin" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Agendum</h1>
+    <div>
+      <p>
+        <em><strong>"things that need to be done"</strong></em>
+      </p>
+
+      <br/>
+
+      <input 
+        name="todo" 
+        id="todoInput" 
+        type="text"
+        onkeyup="todo.add(event)"
+        placeholder="Enter todo item"/>
+        
+    </div>
+    
+    <ul id="todoList"/>
+  </div>
+  <script src="todo.js" type="text/javascript"></script>
+  <script>
+      todo.init()
+      todo.render();
+  </script>
+</body>
+</html>
