@@ -1,3 +1,4 @@
 # To-Do List
-***Simple todo list
+
+Idea by: Colt Steeleś webdeveloper bootcamp assignment
 >responsive design
