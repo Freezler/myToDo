@@ -1,4 +1,4 @@
 # To-Do List
 
-Idea by: Colt Steeleś webdeveloper bootcamp assignment
+Idea by: Colt Steele's webdeveloper bootcamp assignment
 >responsive design
